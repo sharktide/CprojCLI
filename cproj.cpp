@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
     if (argc < 2) {
         std::cerr << "Usage:\n"
                   << "  cproj -a <path> <id>   (Add directory)\n"
-                  << "  cproj [-c] <id>        (Open favorite) [-c]: Open with Cisual Studio Code\n"
+                  << "  cproj [-c] <id>        (Open favorite) [-c]: Open with Visual Studio Code\n"
                   << "  cproj -d <id>          (Delete directory from mem)\n";
         return 1;
     }
