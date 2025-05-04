@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CProjDesktop.AddPage"
+             Title="Add Project"
+             BackgroundColor="White">
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Entry x:Name="IdEntry" Placeholder="Favorite ID" TextColor="Black"/>
+        <Entry x:Name="PathEntry" Placeholder="Project Path" TextColor="Black"/>
+        <Button Text="Add Favorite" Clicked="OnAddClicked" />
+    </VerticalStackLayout>
+</ContentPage>

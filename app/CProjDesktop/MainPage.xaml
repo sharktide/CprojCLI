@@ -1,0 +1,30 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CProjDesktop.MainPage"
+             BackgroundColor="White">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+ Add" Clicked="OnAddToolbarClicked" />
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <Label Text="Projects" FontSize="24" FontAttributes="Bold" TextColor="Black"/>
+
+            <!-- CollectionView -->
+            <CollectionView x:Name="FavoritesList">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnDefinitions="2*,Auto,Auto" Padding="5" ColumnSpacing="10"> <!-- Note to self: Change to 3*,Auto,Auto,Auto to show code btn -->
+                            <Label Text="{Binding Id}" Grid.Column="0" VerticalOptions="Center" TextColor="Black"/>
+                            <Button Text="Open" Grid.Column="1" Clicked="OnOpenClicked" />
+                            <Button Text="Code" Grid.Column="2" Clicked="OnCodeClicked" />
+                            <Button Text="Delete" Grid.Column="3" Clicked="OnDeleteClicked" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

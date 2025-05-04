@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+CProjDesktop/Platforms/* linguist-generated
+CProjDesktop/Properties/* linguist-generated
+CProjDesktop/Resources/* -linguist-detectable
