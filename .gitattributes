@@ -4,3 +4,5 @@
 CProjDesktop/Platforms/* linguist-generated
 CProjDesktop/Properties/* linguist-generated
 CProjDesktop/Resources/* -linguist-detectable
+json.hpp linguist-vendored
+app/* -linguist-vendored
