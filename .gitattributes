@@ -7,9 +7,9 @@ CProjDesktop/Properties/* linguist-generated
 cproj.cpp linguist-detectable=true
 data.h linguist-detectable=true
 install.iss linguist-detectable=true
-app/CProjDesktop/AddPage.xaml.cs linguist-detectable=true
-app/CProjDesktop/MainPage.xaml.cs linguist-detectable=true
-app/CProjDesktop/MauiProgran.xaml.cs linguist-detectable=true
-app/CProjDesktop/AddPage.xaml linguist-detectable=true
-app/CProjDesktop/MainPage.xaml linguist-detectable=true
+app/CProjDesktop/AddPage.xaml.cs linguist-detectable
+app/CProjDesktop/MainPage.xaml.cs linguist-detectable
+app/CProjDesktop/MauiProgran.xaml.cs linguist-detectable
+app/CProjDesktop/AddPage.xaml linguist-detectable
+app/CProjDesktop/MainPage.xaml linguist-detectable
 
