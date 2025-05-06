@@ -1,7 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 app/* -linguist-vendored
+* -linguist-detectable
 CProjDesktop/Platforms/* linguist-generated
 CProjDesktop/Properties/* linguist-generated
-CProjDesktop/Resources/* -linguist-detectable
-json.hpp linguist-vendored
+cproj.cpp linguist-detectable=true
+data.h linguist-detectable=true
+install.iss linguist-detectable=true
+app/CProjDesktop/AddPage.xaml.cs linguist-detectable=true
+app/CProjDesktop/MainPage.xaml.cs linguist-detectable=true
+app/CProjDesktop/MauiProgran.xaml.cs linguist-detectable=true
+app/CProjDesktop/AddPage.xaml linguist-detectable=true
+app/CProjDesktop/MainPage.xaml linguist-detectable=true
+
